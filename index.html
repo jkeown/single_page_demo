@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Tasty Treats</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="flow-text.min.css">
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <img src="images/noun_Restaurant_1715997.svg" alt="logo" height="50px" />
+      <span>Tasty Treats</span>
+    </div>
+
+    <a class="mobile" href="tel:123-555-0000">
+      <img src="images/noun_Phone_1281036.svg" alt="Phone Number" height="40px" />
+    </a>
+
+    <div class="contact">
+      <img src="images/noun_Phone_1281036.svg" alt="Phone Number" height="50px" />
+      <a href="tel:123-555-0000">
+        123-555-0000
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <section class="jumbo">
+      <span>
+        Always
+        <br />
+        <i>TASTY</i>
+      </span>
+    </section>
+    <div class="content">
+      <section class="about">
+        <h1><i>Voted #1 family owned restaurant 6 years in a row!</i></h1>
+        <p class="flow-text">
+          For 17 years our family has been proudly serving delicious cuisine. Our head chef (and oldest son) is a
+          graduate of Magnus Culinary School. He has lived in France for 3 years refining his skills. Come in anytime of
+          the day and we guarantee you a tasty treat!
+        </p>
+      </section>
+
+      <section class="hours">
+        <p>Open 7 days a week</p>
+        <p>7 am to 9 pm</p>
+      </section>
+
+      <section>
+        <h2><i>Staff Favorites</i></h2>
+        <div class="dishes">
+          <div>
+            <p class="flow-text">Breakfast</p>
+            <p class="flow-text">Tokyo Toast</p>
+          </div>
+          <div>
+            <p class="flow-text">Lunch</p>
+            <p class="flow-text">Taco Tango</p>
+          </div>
+          <div>
+            <p class="flow-text">Dinner</p>
+            <p class="flow-text">Ribeye</p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <section>
+      <div>
+        <img src="images/noun_Phone_1281036.svg" alt="" />
+        <a class="flow-text" href="tel:123-555-0000">
+          123-555-0000
+        </a>
+      </div>
+      <div>
+        <img src="images/noun_Address_2340040.svg" alt="" />
+        <a class="flow-text" href="https://goo.gl/maps/iVNJXxcBcCMqGKqb7" target="_blank" rel="noopener noreferrer">
+          777 Tasty St
+          <br />
+          Town, St 11111
+        </a>
+      </div>
+    </section>
+    <section>
+      <p>
+        &copy; 2019 - <span id="year"></span> Tasty Treats
+      </p>
+      <p>Web by Jared</p>
+    </section>
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear()
+  </script>
+</body>
+
+</html>
