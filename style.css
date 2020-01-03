@@ -104,7 +104,7 @@ main {
   align-items: center;
 }
 .hours p {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 .dishes {
@@ -191,6 +191,9 @@ footer img {
 
   .content section {
     padding: 25px 0;
+  }
+  .hours p{
+    font-size: 2rem;
   }
   footer {
     padding-bottom: 10px;
